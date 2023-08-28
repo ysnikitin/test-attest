@@ -36,7 +36,7 @@ jobs:
       contents: write # To upload assets to release.
       actions: read # To read the workflow path.
     needs: args
-    uses: ysnikitin/slsa-github-generator-kms/.github/workflows/builder_go_slsa3.yml
+    uses: ysnikitin/slsa-github-generator-kms/.github/workflows/builder_go_slsa3.yml@master
     with:
       go-version: 1.17
       private-repository: true
